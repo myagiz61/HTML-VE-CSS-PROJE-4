@@ -1,0 +1,215 @@
+*{
+    background-color: #161616;
+}
+#bar{
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 90px;
+}
+#two{
+    color: white;
+    font-size: 20px;
+    margin-left:600px ;
+}
+#bag{
+    cursor: pointer;
+    color: white;
+    margin-left: 610px;
+    font-size: 20px;
+}
+.icon span{
+    color: white;
+    font-size: 30px;
+}
+.ort{
+    margin-left: 90px;
+    margin-top: 200px;
+}
+.ort h2{
+    color: white;
+    font-size: 42px;
+}
+.ort p{
+    color: white;
+    font-size: 20px;
+}
+.ort button{
+    cursor: pointer;
+    border-radius: 10px;
+    height: 25px;
+    width: 120px;
+    border: none;
+    color: white;
+    background-color: rgb(212, 33, 33);
+}
+
+.col-2 .ring img{
+    border-radius: 50%;
+    margin-top: -1px;
+    margin-left: px;
+    width: 100%;
+    max-width: 580px;
+}
+
+#circle-ring{
+    border-radius: 50%;
+    padding-left: 130px;
+    padding-top: 60px;
+}
+
+.col-2 .ring{
+    margin-top: -330px;
+    margin-left: 770px;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background: transparent;
+    border: 3px solid #3c3c3c;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0,0,0, 0.5);
+}
+
+.col-2 .ring:before{
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    width: 100%;
+    height: 100%;
+    border: 3px solid transparent;
+    border-top: 3px solid #fff12e;
+    border-right: 3px solid #fff12e;
+    border-radius: 50%;
+    animation: returnCircle 10s linear infinite;
+}
+
+.col-2 .ring .circle{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 4px;
+    background: transparent;
+    transform-origin: left;
+    animation: return 10s linear infinite;
+}
+
+.col-2 .ring .circle:before{
+    content: "";
+    position: absolute;
+    top: -6px;
+    right: -9px;
+    width: 16px;
+    height: 16px;
+    background: #fff12e;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #fff12e;
+}
+
+.col-2 .ring-two{
+    border-radius: 50%;
+    position: absolute;
+    top: 13%;
+    left: 56%;
+    width: 500px;
+    height: 500px;
+    background: transparent;
+    border: 3px solid #3c3c3c;
+    border-radius: 50%;
+}
+
+.col-2 .ring-two:before{
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    width: 100%;
+    height: 100%;
+    border: 3px solid transparent;
+    border-bottom: 3px solid #fff12e;
+    border-left: 3px solid #fff12e;
+    border-radius: 50%;
+    animation: returnCircle2 10s linear infinite;
+}
+
+.col-2 .ring-two .circle-two{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 4px;
+    background: transparent;
+    transform-origin: left;
+    animation: return2 10s linear infinite;
+}
+
+.col-2 .ring-two .circle-two:before{
+    content: "";
+    position: absolute;
+    top: -6px;
+    right: -8px;
+    width: 16px;
+    height: 16px;
+    background: #fff12e;
+    box-shadow: 0 0 20px #fff12e;
+    border-radius: 50%;
+}
+
+
+
+@keyframes returnCircle {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
+
+@keyframes return {
+    0%{
+        transform: rotate(45deg);
+    }
+    100%{
+        transform: rotate(405deg);
+    }
+    
+}
+
+
+@keyframes returnCircle2 {
+    0%{
+        transform: rotate(-45deg);
+    }
+    100%{
+        transform: rotate(-405deg);
+    }
+    
+}
+
+
+@keyframes return2 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+    
+}
+
+.yazi p{
+    opacity: 0.2;
+    margin-top: -110px;
+    margin-left: 890px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 120px;
+    color: #3c3c3c;
+}
